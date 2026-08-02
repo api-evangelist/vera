@@ -1,0 +1,62 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of /.well-known/ paths (curl, 2026-07-21)
+note: 'No well-known discovery documents found. www.vera.com and www.digitalguardian.com
+  blanket-301 every path to marketing pages (Vera was acquired by HelpSystems/Fortra;
+  vera.com redirects to the Fortra Secure Collaboration product page). www.fortra.com
+  returns HTTP 403 (WAF/bot protection) to automated probes on all paths.'
+hosts:
+- host: https://www.vera.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    redirect: https://www.digitalguardian.com/
+  - path: /.well-known/openid-configuration
+    status: 301
+    redirect: https://www.digitalguardian.com/
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    redirect: https://www.digitalguardian.com/
+  - path: /.well-known/api-catalog
+    status: 301
+    redirect: https://www.digitalguardian.com/
+  - path: /.well-known/ai-plugin.json
+    status: 301
+    redirect: https://www.digitalguardian.com/
+  - path: /llms.txt
+    status: 301
+    redirect: https://www.digitalguardian.com/
+- host: https://www.digitalguardian.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    redirect: https://www.fortra.com/platform/data-loss-prevention
+  - path: /.well-known/openid-configuration
+    status: 301
+    redirect: https://www.fortra.com/platform/data-loss-prevention
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    redirect: https://www.fortra.com/platform/data-loss-prevention
+  - path: /.well-known/api-catalog
+    status: 301
+    redirect: https://www.fortra.com/platform/data-loss-prevention
+  - path: /.well-known/ai-plugin.json
+    status: 301
+    redirect: https://www.fortra.com/platform/data-loss-prevention
+  - path: /llms.txt
+    status: 301
+    redirect: https://www.fortra.com/platform/data-loss-prevention
+- host: https://www.fortra.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403
+  - path: /llms.txt
+    status: 403

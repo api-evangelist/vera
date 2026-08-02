@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+probe: false
+attribution: parent-company
+url: https://www.fortra.com/security
+note: 'Applicable trust surface is the Fortra Security & Trust Center (Vera is now
+  Fortra''s Digital Guardian Secure Collaboration product). Fortra maintains SOC 2
+  compliance and the Digital Guardian product line (which houses the former Vera)
+  completed a SOC 2 Type 2 examination attested by Schellman & Company. www.fortra.com
+  returns HTTP 403 to automated probes (WAF), so pages were verified via web search,
+  not fetched raw.'
+certifications:
+- SOC 2 Type 2 (Digital Guardian product line, attested by Schellman & Company)
+evidence:
+- source: https://www.fortra.com/security
+  kind: trust-center
+  title: Fortra Security & Trust Center | Fortra
+- source: https://www.fortra.com/resources/press-releases/fortra-dlp-helpsystems-successfully-completes-soc-2-type-2
+  kind: press-release
+  title: Digital Guardian by HelpSystems Successfully Completes SOC 2 Type 2 Examination
+- source: https://www.fortra.com/security/secure-by-design-pledge
+  kind: secure-by-design
+  title: Fortra Security & Trust Center - Secure by Design Pledge

@@ -1,8 +1,25 @@
 aid: vera
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vera.png
 name: Vera
-description: 'Vera is a company surfaced as a portfolio company of amplify-partners and added to the API
-  Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Vera was a data-centric security company delivering information rights
+  management (IRM) as a service, letting businesses encrypt, track, audit, and revoke
+  access to files anywhere they travel, with an SDK and REST API for embedding AES
+  256-bit encryption and policy enforcement into applications. Backed by Amplify
+  Partners, Battery Ventures, and Sutter Hill Ventures, Vera was acquired by HelpSystems
+  (now Fortra) in December 2020 and lives on as Fortra''s Digital Guardian Secure
+  Collaboration product; its developer surface (SDK/REST API) is now available to
+  Fortra customers rather than as a public developer program.'
 url: https://raw.githubusercontent.com/api-evangelist/vera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,26 @@ x-backed-by:
 - amplify-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-acquired-by: fortra
+x-acquisition: 'Acquired by HelpSystems (now Fortra) in December 2020; rebranded
+  Digital Guardian Secure Collaboration in September 2023. vera.com now redirects
+  to the Fortra product page.'
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Cybersecurity
+- Data Security
+- Encryption
+- Digital Rights Management
+- Information Rights Management
+- Secure Collaboration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +54,23 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vera-domain-security.yml
 - type: Website
-  url: https://helpsystems.com
+  url: https://www.vera.com
+- type: ProductPage
+  url: https://www.fortra.com/platform/secure-collaboration
+- type: ChangeLog
+  url: https://hstechdocs.helpsystems.com/releasenotes/Content/_ProductPages/Vera/VeraReleaseNotes_MainPage.htm
+- type: ChangeLog
+  url: changelog/vera-changelog.yml
+- type: LLMsTxt
+  url: llms/vera-llms.txt
+- type: VulnerabilityDisclosure
+  url: security/vera-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.fortra.com/security/policy
+- type: TrustCenter
+  url: security/vera-trust-center.yml
+- type: Compliance
+  url: https://www.fortra.com/security

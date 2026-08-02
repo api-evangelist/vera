@@ -1,0 +1,23 @@
+# Vera
+
+> Vera was a data-centric security company delivering information rights management (IRM) as a service — encrypt, track, audit, and revoke access to files anywhere they travel, with an SDK and REST API for embedding AES 256-bit encryption and policy enforcement into applications. Acquired by HelpSystems (now Fortra) in December 2020; the product lives on as Fortra's Digital Guardian Secure Collaboration (rebranded September 2023). There is no public developer program today: the SDK/REST API is available to Fortra customers, and API introspection surfaces (e.g. application.wadl) are deliberately disabled.
+
+Company profile maintained by API Evangelist / APIs.io. Vera was backed by Amplify Partners, Battery Ventures, Sutter Hill Ventures, and others (~$50M raised).
+
+## Product
+
+- [Secure Collaboration (Fortra product page)](https://www.fortra.com/platform/secure-collaboration): Current home of the former Vera product
+- [vera.com](https://www.vera.com): Legacy brand domain (redirects to the Fortra product page)
+- [Release notes](https://hstechdocs.helpsystems.com/releasenotes/Content/_ProductPages/Vera/VeraReleaseNotes_MainPage.htm): Dated Secure Collaboration (Vera) / DGSC release-notes archive, June 2019 to present
+
+## Security
+
+- [Fortra Security & Trust Center](https://www.fortra.com/security): Parent-company trust center (SOC 2; Digital Guardian SOC 2 Type 2)
+- [Vulnerability Disclosure Policy](https://www.fortra.com/security/policy): Fortra VDP (CVE Numbering Authority since December 2023)
+- [Report a Vulnerability](https://www.fortra.com/security/report)
+
+## Profile artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/vera/refs/heads/main/apis.yml): APIs.json profile for Vera
+- [Changelog](https://raw.githubusercontent.com/api-evangelist/vera/refs/heads/main/changelog/vera-changelog.yml): Structured recent release entries
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/vera/refs/heads/main/security/vera-domain-security.yml): Probed TLS/DNS posture of vera.com

@@ -1,0 +1,40 @@
+generated: '2026-07-21'
+method: searched
+source: https://hstechdocs.helpsystems.com/releasenotes/Content/_ProductPages/Vera/VeraReleaseNotes_MainPage.htm
+product: Secure Collaboration (Vera) / Digital Guardian Secure Collaboration (DGSC)
+scheme: product release versions (major.minor.patch), dated release notes
+current_version: 3.25.4
+note: 'Vera was commercially rebranded to Digital Guardian Secure Collaboration
+  (DGSC) as of September 2023 under Fortra; the release-notes archive on
+  hstechdocs.helpsystems.com spans June 2019 to the present. Recent window only;
+  the live page is the source of truth. Release notes reference the Vera SDK and
+  REST API (e.g. REST API error responses hardened; application.wadl access
+  disabled to restrict API information exposure).'
+entries:
+- version: 3.25.4
+  date: 2026-07
+  highlights:
+  - Microsoft Edge browser integration
+  - Save As support for Mac
+- version: 3.25.3
+  date: 2026-05
+  highlights:
+  - Infinispan upgrade support
+  - New Outlook add-in for Windows
+- version: 3.25.2
+  date: 2026-04
+  highlights:
+  - Adobe Acrobat and Reader support
+- version: 3.25.1
+  date: 2026-03
+  highlights:
+  - SharePoint Online with customer-managed Azure app
+- version: 3.25.0
+  date: 2026-02
+  highlights:
+  - Tomcat upgrade
+  - AutoCAD 2024 support
+- version: 3.24.5
+  date: 2025-12
+  highlights:
+  - RHEL 8 and 9 connector support
