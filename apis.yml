@@ -31,7 +31,7 @@ x-acquired-by: fortra
 x-acquisition: 'Acquired by HelpSystems (now Fortra) in December 2020; rebranded
   Digital Guardian Secure Collaboration in September 2023. vera.com now redirects
   to the Fortra product page.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 x-enrichment:
   date: '2026-07-21'
   status: enriched
