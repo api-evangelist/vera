@@ -18,21 +18,21 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://www.vera.com
+    status: 301
+    note: declared website redirects to https://www.fortra.com/platform/secure-collaboration — a different registrable
+      domain (vera.com -> fortra.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://www.vera.com', status: 301, note: 'declared website redirects to https://www.fortra.com/platform/secure-collaboration — a different registrable domain (vera.com -> fortra.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vera.png
 name: Vera
-description: 'Vera was a data-centric security company delivering information rights
-  management (IRM) as a service, letting businesses encrypt, track, audit, and revoke
-  access to files anywhere they travel, with an SDK and REST API for embedding AES
-  256-bit encryption and policy enforcement into applications. Backed by Amplify
-  Partners, Battery Ventures, and Sutter Hill Ventures, Vera was acquired by HelpSystems
-  (now Fortra) in December 2020 and lives on as Fortra''s Digital Guardian Secure
-  Collaboration product; its developer surface (SDK/REST API) is now available to
-  Fortra customers rather than as a public developer program.'
+description: Vera was a data-centric security company delivering information rights management (IRM) as a service,
+  letting businesses encrypt, track, audit, and revoke access to files anywhere they travel, with an SDK and REST
+  API for embedding AES 256-bit encryption and policy enforcement into applications. Backed by Amplify Partners,
+  Battery Ventures, and Sutter Hill Ventures, Vera was acquired by HelpSystems (now Fortra) in December 2020 and
+  lives on as Fortra's Digital Guardian Secure Collaboration product; its developer surface (SDK/REST API) is now
+  available to Fortra customers rather than as a public developer program.
 url: https://raw.githubusercontent.com/api-evangelist/vera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -41,9 +41,8 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 x-acquired-by: fortra
-x-acquisition: 'Acquired by HelpSystems (now Fortra) in December 2020; rebranded
-  Digital Guardian Secure Collaboration in September 2023. vera.com now redirects
-  to the Fortra product page.'
+x-acquisition: Acquired by HelpSystems (now Fortra) in December 2020; rebranded Digital Guardian Secure Collaboration
+  in September 2023. vera.com now redirects to the Fortra product page.
 specificationVersion: '0.23'
 x-enrichment:
   date: '2026-07-21'
@@ -87,3 +86,5 @@ common:
   url: security/vera-trust-center.yml
 - type: Compliance
   url: https://www.fortra.com/security
+- type: Website
+  url: https://secure.vera.com/
